@@ -1,0 +1,11 @@
+.bForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formElem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
