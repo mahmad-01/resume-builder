@@ -20,10 +20,9 @@ function BasicInfo( {onChange, email, fName, lName, pNumber, address, handleSubm
                 <input type = 'number' name='pNumber' defaultValue = {pNumber} placeholder="Phone Number" onChange = {onChange}/>
                 <label className = "formElem"> Address </label>
                 <input type = 'text' name='address' defaultValue = {address} placeholder="Adress" onChange = {onChange}/>
-                <button> Submit </button>
+                
             </form>
-            <p> {fName} </p>
-            <p> {lName} </p>
+            <p> {fName} {lName} {email} {pNumber} {address} </p>
         </div>
         </>
 
